@@ -1,82 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shashwatam Eco-Chie Creation LLP</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Shashwatam</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#shashwatam">Shashwatam</a></li>
-          <li><a href="#kiccha">Kiccha</a></li>
-          <li><a href="#vedvit">Vedvit</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Garment Export | Kidswear Brand | Software Products</h2>
-      <p>Shashwatam Eco-Chie Creation LLP is committed to quality, creativity, and service.</p>
-    </div>
-  </section>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
 
-  <section id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>Shashwatam Eco-Chie Creation LLP is a diverse business group focused on excellence in exports, fashion, and software innovation. Our mission is to deliver quality and satisfaction through timely services and innovative ideas.</p>
-    </div>
-  </section>
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
 
-  <section id="shashwatam">
-    <div class="container">
-      <h2>Shashwatam</h2>
-      <p>Our garment export division specializes in high-quality garments for international markets. We build direct relationships through manual B2B marketing. Timely delivery and customer satisfaction are our strengths.</p>
-    </div>
-  </section>
+header {
+  background-color: #004d40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
 
-  <section id="kiccha">
-    <div class="container">
-      <h2>Kiccha</h2>
-      <p>Kiccha is our kidswear brand available on major online seller portals. Each piece is designed for comfort and happiness of children, crafted with vibrant colors and long-lasting quality.</p>
-    </div>
-  </section>
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
 
-  <section id="vedvit">
-    <div class="container">
-      <h2>Vedvit</h2>
-      <p>Vedvit is the software wing of our LLP. We are working on software solutions aimed at real-world problems. Some ideas are under R&D phase and open for investment for prototype and market launch.</p>
-    </div>
-  </section>
+header .tagline {
+  margin-top: 5px;
+  font-size: 0.95em;
+}
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Email (General): <a href="mailto:info@shashwatam.com">info@shashwatam.com</a></p>
-      <p>Email (Kiccha): <a href="mailto:kiccha@shashwatam.com">kiccha@shashwatam.com</a></p>
-      <p>Email (Vedvit): <a href="mailto:vedvit@shashwatam.com">vedvit@shashwatam.com</a></p>
-    </div>
-  </section>
+nav {
+  margin-top: 15px;
+}
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Shashwatam Eco-Chie Creation LLP • All Rights Reserved</p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/shashwatam-eco-chic-creation-llp-355b2b172/" target="_blank">LinkedIn</a> |
-        <a href="https://www.instagram.com/shashwatam.llp" target="_blank">Instagram</a>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+nav a {
+  margin: 0 10px;
+  color: #a5f5e0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-color: #e0f2f1;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.divisions, .contact {
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+a {
+  color: #00796b;
+}
