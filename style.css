@@ -1,30 +1,82 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fdfdfd;
-  color: #333;
-}
-header {
-  background: #1e88e5;
-  color: white;
-  padding: 1rem;
-}
-nav a {
-  margin-right: 1rem;
-  color: white;
-  text-decoration: none;
-}
-nav a.active {
-  font-weight: bold;
-  text-decoration: underline;
-}
-main {
-  padding: 2rem;
-}
-footer {
-  background: #f1f1f1;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shashwatam Eco-Chie Creation LLP</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Shashwatam</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#shashwatam">Shashwatam</a></li>
+          <li><a href="#kiccha">Kiccha</a></li>
+          <li><a href="#vedvit">Vedvit</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Garment Export | Kidswear Brand | Software Products</h2>
+      <p>Shashwatam Eco-Chie Creation LLP is committed to quality, creativity, and service.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Shashwatam Eco-Chie Creation LLP is a diverse business group focused on excellence in exports, fashion, and software innovation. Our mission is to deliver quality and satisfaction through timely services and innovative ideas.</p>
+    </div>
+  </section>
+
+  <section id="shashwatam">
+    <div class="container">
+      <h2>Shashwatam</h2>
+      <p>Our garment export division specializes in high-quality garments for international markets. We build direct relationships through manual B2B marketing. Timely delivery and customer satisfaction are our strengths.</p>
+    </div>
+  </section>
+
+  <section id="kiccha">
+    <div class="container">
+      <h2>Kiccha</h2>
+      <p>Kiccha is our kidswear brand available on major online seller portals. Each piece is designed for comfort and happiness of children, crafted with vibrant colors and long-lasting quality.</p>
+    </div>
+  </section>
+
+  <section id="vedvit">
+    <div class="container">
+      <h2>Vedvit</h2>
+      <p>Vedvit is the software wing of our LLP. We are working on software solutions aimed at real-world problems. Some ideas are under R&D phase and open for investment for prototype and market launch.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email (General): <a href="mailto:info@shashwatam.com">info@shashwatam.com</a></p>
+      <p>Email (Kiccha): <a href="mailto:kiccha@shashwatam.com">kiccha@shashwatam.com</a></p>
+      <p>Email (Vedvit): <a href="mailto:vedvit@shashwatam.com">vedvit@shashwatam.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Shashwatam Eco-Chie Creation LLP • All Rights Reserved</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/shashwatam-eco-chic-creation-llp-355b2b172/" target="_blank">LinkedIn</a> |
+        <a href="https://www.instagram.com/shashwatam.llp" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
