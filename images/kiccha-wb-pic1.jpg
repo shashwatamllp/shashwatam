@@ -1,1 +1,10 @@
 
+<section id="kiccha" style="padding: 2rem;">
+  <h2 style="font-size: 2rem; margin-bottom: 1rem;">Kiccha</h2>
+  <p>
+    Kiccha is our kidswear brand. Our products are available on popular online seller portals.
+    We combine vibrant designs with long-lasting quality. Each piece of clothing is created to bring joy to children and comfort to parents.
+  </p>
+
+  <img src="images/kiccha-wb-pic1.jpg" alt="Kiccha Products" style="max-width: 100%; border-radius: 12px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); margin-top: 20px;">
+</section>
